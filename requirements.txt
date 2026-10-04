@@ -1,0 +1,3 @@
+pytest>=8.0
+# GUI-автоматизация только под Windows; на Linux заменить на dogtail/AT-SPI
+pywinauto>=0.6.8 ; sys_platform == "win32"
